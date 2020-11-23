@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A33E22A256A489A00B050DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A33E229256A489A00B050DF /* AppDelegate.swift */; };
+		4A33E22C256A489A00B050DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A33E22B256A489A00B050DF /* SceneDelegate.swift */; };
+		4A33E22E256A489A00B050DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A33E22D256A489A00B050DF /* ContentView.swift */; };
+		4A33E230256A489F00B050DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A33E22F256A489F00B050DF /* Assets.xcassets */; };
+		4A33E233256A489F00B050DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A33E232256A489F00B050DF /* Preview Assets.xcassets */; };
+		4A33E236256A489F00B050DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A33E234256A489F00B050DF /* LaunchScreen.storyboard */; };
+		4A33E241256A489F00B050DF /* PolyGoogle3DModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A33E240256A489F00B050DF /* PolyGoogle3DModelTests.swift */; };
+		4A33E24C256A489F00B050DF /* PolyGoogle3DModelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A33E24B256A489F00B050DF /* PolyGoogle3DModelUITests.swift */; };
+		4A33E260256A491200B050DF /* ironman.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4A33E25D256A491200B050DF /* ironman.usdz */; };
+		4A33E261256A491200B050DF /* spiderman.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4A33E25E256A491200B050DF /* spiderman.usdz */; };
+		4A33E262256A491200B050DF /* flash.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4A33E25F256A491200B050DF /* flash.usdz */; };
+		4A33E267256A498900B050DF /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A33E266256A498800B050DF /* MainUIView.swift */; };
+		4A85A26E256B537B00BE5D16 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A85A26D256B537B00BE5D16 /* DataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A33E23D256A489F00B050DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A33E21E256A489A00B050DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A33E225256A489A00B050DF;
+			remoteInfo = PolyGoogle3DModel;
+		};
+		4A33E248256A489F00B050DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A33E21E256A489A00B050DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A33E225256A489A00B050DF;
+			remoteInfo = PolyGoogle3DModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A33E226256A489A00B050DF /* PolyGoogle3DModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyGoogle3DModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A33E229256A489A00B050DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A33E22B256A489A00B050DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A33E22D256A489A00B050DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A33E22F256A489F00B050DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A33E232256A489F00B050DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A33E235256A489F00B050DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A33E237256A489F00B050DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A33E23C256A489F00B050DF /* PolyGoogle3DModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyGoogle3DModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A33E240256A489F00B050DF /* PolyGoogle3DModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyGoogle3DModelTests.swift; sourceTree = "<group>"; };
+		4A33E242256A489F00B050DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A33E247256A489F00B050DF /* PolyGoogle3DModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyGoogle3DModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A33E24B256A489F00B050DF /* PolyGoogle3DModelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyGoogle3DModelUITests.swift; sourceTree = "<group>"; };
+		4A33E24D256A489F00B050DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A33E25D256A491200B050DF /* ironman.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ironman.usdz; sourceTree = "<group>"; };
+		4A33E25E256A491200B050DF /* spiderman.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = spiderman.usdz; sourceTree = "<group>"; };
+		4A33E25F256A491200B050DF /* flash.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flash.usdz; sourceTree = "<group>"; };
+		4A33E266256A498800B050DF /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		4A85A26D256B537B00BE5D16 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A33E223256A489A00B050DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A33E239256A489F00B050DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A33E244256A489F00B050DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A33E21D256A489A00B050DF = {
+			isa = PBXGroup;
+			children = (
+				4A33E228256A489A00B050DF /* PolyGoogle3DModel */,
+				4A33E23F256A489F00B050DF /* PolyGoogle3DModelTests */,
+				4A33E24A256A489F00B050DF /* PolyGoogle3DModelUITests */,
+				4A33E227256A489A00B050DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A33E227256A489A00B050DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A33E226256A489A00B050DF /* PolyGoogle3DModel.app */,
+				4A33E23C256A489F00B050DF /* PolyGoogle3DModelTests.xctest */,
+				4A33E247256A489F00B050DF /* PolyGoogle3DModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A33E228256A489A00B050DF /* PolyGoogle3DModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A85A26C256B536000BE5D16 /* Model */,
+				4A33E25C256A48D600B050DF /* Objects */,
+				4A33E229256A489A00B050DF /* AppDelegate.swift */,
+				4A33E22B256A489A00B050DF /* SceneDelegate.swift */,
+				4A33E22D256A489A00B050DF /* ContentView.swift */,
+				4A33E266256A498800B050DF /* MainUIView.swift */,
+				4A33E22F256A489F00B050DF /* Assets.xcassets */,
+				4A33E234256A489F00B050DF /* LaunchScreen.storyboard */,
+				4A33E237256A489F00B050DF /* Info.plist */,
+				4A33E231256A489F00B050DF /* Preview Content */,
+			);
+			path = PolyGoogle3DModel;
+			sourceTree = "<group>";
+		};
+		4A33E231256A489F00B050DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A33E232256A489F00B050DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A33E23F256A489F00B050DF /* PolyGoogle3DModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A33E240256A489F00B050DF /* PolyGoogle3DModelTests.swift */,
+				4A33E242256A489F00B050DF /* Info.plist */,
+			);
+			path = PolyGoogle3DModelTests;
+			sourceTree = "<group>";
+		};
+		4A33E24A256A489F00B050DF /* PolyGoogle3DModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A33E24B256A489F00B050DF /* PolyGoogle3DModelUITests.swift */,
+				4A33E24D256A489F00B050DF /* Info.plist */,
+			);
+			path = PolyGoogle3DModelUITests;
+			sourceTree = "<group>";
+		};
+		4A33E25C256A48D600B050DF /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				4A33E25F256A491200B050DF /* flash.usdz */,
+				4A33E25D256A491200B050DF /* ironman.usdz */,
+				4A33E25E256A491200B050DF /* spiderman.usdz */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		4A85A26C256B536000BE5D16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A85A26D256B537B00BE5D16 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A33E225256A489A00B050DF /* PolyGoogle3DModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A33E250256A489F00B050DF /* Build configuration list for PBXNativeTarget "PolyGoogle3DModel" */;
+			buildPhases = (
+				4A33E222256A489A00B050DF /* Sources */,
+				4A33E223256A489A00B050DF /* Frameworks */,
+				4A33E224256A489A00B050DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolyGoogle3DModel;
+			productName = PolyGoogle3DModel;
+			productReference = 4A33E226256A489A00B050DF /* PolyGoogle3DModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A33E23B256A489F00B050DF /* PolyGoogle3DModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A33E253256A489F00B050DF /* Build configuration list for PBXNativeTarget "PolyGoogle3DModelTests" */;
+			buildPhases = (
+				4A33E238256A489F00B050DF /* Sources */,
+				4A33E239256A489F00B050DF /* Frameworks */,
+				4A33E23A256A489F00B050DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A33E23E256A489F00B050DF /* PBXTargetDependency */,
+			);
+			name = PolyGoogle3DModelTests;
+			productName = PolyGoogle3DModelTests;
+			productReference = 4A33E23C256A489F00B050DF /* PolyGoogle3DModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A33E246256A489F00B050DF /* PolyGoogle3DModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A33E256256A489F00B050DF /* Build configuration list for PBXNativeTarget "PolyGoogle3DModelUITests" */;
+			buildPhases = (
+				4A33E243256A489F00B050DF /* Sources */,
+				4A33E244256A489F00B050DF /* Frameworks */,
+				4A33E245256A489F00B050DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A33E249256A489F00B050DF /* PBXTargetDependency */,
+			);
+			name = PolyGoogle3DModelUITests;
+			productName = PolyGoogle3DModelUITests;
+			productReference = 4A33E247256A489F00B050DF /* PolyGoogle3DModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A33E21E256A489A00B050DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					4A33E225256A489A00B050DF = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					4A33E23B256A489F00B050DF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4A33E225256A489A00B050DF;
+					};
+					4A33E246256A489F00B050DF = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 4A33E225256A489A00B050DF;
+					};
+				};
+			};
+			buildConfigurationList = 4A33E221256A489A00B050DF /* Build configuration list for PBXProject "PolyGoogle3DModel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A33E21D256A489A00B050DF;
+			productRefGroup = 4A33E227256A489A00B050DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A33E225256A489A00B050DF /* PolyGoogle3DModel */,
+				4A33E23B256A489F00B050DF /* PolyGoogle3DModelTests */,
+				4A33E246256A489F00B050DF /* PolyGoogle3DModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A33E224256A489A00B050DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A33E262256A491200B050DF /* flash.usdz in Resources */,
+				4A33E260256A491200B050DF /* ironman.usdz in Resources */,
+				4A33E236256A489F00B050DF /* LaunchScreen.storyboard in Resources */,
+				4A33E261256A491200B050DF /* spiderman.usdz in Resources */,
+				4A33E233256A489F00B050DF /* Preview Assets.xcassets in Resources */,
+				4A33E230256A489F00B050DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A33E23A256A489F00B050DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A33E245256A489F00B050DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A33E222256A489A00B050DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A85A26E256B537B00BE5D16 /* DataModel.swift in Sources */,
+				4A33E22A256A489A00B050DF /* AppDelegate.swift in Sources */,
+				4A33E267256A498900B050DF /* MainUIView.swift in Sources */,
+				4A33E22C256A489A00B050DF /* SceneDelegate.swift in Sources */,
+				4A33E22E256A489A00B050DF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A33E238256A489F00B050DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A33E241256A489F00B050DF /* PolyGoogle3DModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A33E243256A489F00B050DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A33E24C256A489F00B050DF /* PolyGoogle3DModelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A33E23E256A489F00B050DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A33E225256A489A00B050DF /* PolyGoogle3DModel */;
+			targetProxy = 4A33E23D256A489F00B050DF /* PBXContainerItemProxy */;
+		};
+		4A33E249256A489F00B050DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A33E225256A489A00B050DF /* PolyGoogle3DModel */;
+			targetProxy = 4A33E248256A489F00B050DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A33E234256A489F00B050DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A33E235256A489F00B050DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A33E24E256A489F00B050DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A33E24F256A489F00B050DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A33E251256A489F00B050DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PolyGoogle3DModel/Preview Content\"";
+				DEVELOPMENT_TEAM = MG5EZ748K3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PolyGoogle3DModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raja.PolyGoogle3DModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A33E252256A489F00B050DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PolyGoogle3DModel/Preview Content\"";
+				DEVELOPMENT_TEAM = MG5EZ748K3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PolyGoogle3DModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raja.PolyGoogle3DModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A33E254256A489F00B050DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG5EZ748K3;
+				INFOPLIST_FILE = PolyGoogle3DModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raja.PolyGoogle3DModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolyGoogle3DModel.app/PolyGoogle3DModel";
+			};
+			name = Debug;
+		};
+		4A33E255256A489F00B050DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG5EZ748K3;
+				INFOPLIST_FILE = PolyGoogle3DModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raja.PolyGoogle3DModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolyGoogle3DModel.app/PolyGoogle3DModel";
+			};
+			name = Release;
+		};
+		4A33E257256A489F00B050DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG5EZ748K3;
+				INFOPLIST_FILE = PolyGoogle3DModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raja.PolyGoogle3DModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolyGoogle3DModel;
+			};
+			name = Debug;
+		};
+		4A33E258256A489F00B050DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG5EZ748K3;
+				INFOPLIST_FILE = PolyGoogle3DModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.raja.PolyGoogle3DModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolyGoogle3DModel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A33E221256A489A00B050DF /* Build configuration list for PBXProject "PolyGoogle3DModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A33E24E256A489F00B050DF /* Debug */,
+				4A33E24F256A489F00B050DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A33E250256A489F00B050DF /* Build configuration list for PBXNativeTarget "PolyGoogle3DModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A33E251256A489F00B050DF /* Debug */,
+				4A33E252256A489F00B050DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A33E253256A489F00B050DF /* Build configuration list for PBXNativeTarget "PolyGoogle3DModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A33E254256A489F00B050DF /* Debug */,
+				4A33E255256A489F00B050DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A33E256256A489F00B050DF /* Build configuration list for PBXNativeTarget "PolyGoogle3DModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A33E257256A489F00B050DF /* Debug */,
+				4A33E258256A489F00B050DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A33E21E256A489A00B050DF /* Project object */;
+}
